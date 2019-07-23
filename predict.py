@@ -20,7 +20,7 @@ def main():
         class_names = f.read().splitlines()
 
     # loading the model
-    model = keras.models.load_model('model.h5')
+    model = keras.models.load_model('doodle_model.h5')
 
     # starting cv2 video capture
     cap = cv2.VideoCapture(0)

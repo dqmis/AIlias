@@ -111,7 +111,7 @@ def main():
 
 	# evaluating and saving the model
 	model.evaluate(X_val, y_val)
-	model.save('model.h5')
+	model.save('doodle_model.h5')
 
 if __name__ == '__main__':
 	main()
